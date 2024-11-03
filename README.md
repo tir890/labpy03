@@ -50,9 +50,31 @@ Setelah loop selesai (yaitu setelah `n` bilangan acak kurang dari 0.5 telah diba
 ![foto](https://github.com/tir890/foto/blob/7943a555c3945c20549c04d2ce88de152da6426b/Screenshot%202024-11-03%20142206.png)
 
 ## Latihan 2 | Penjelasan Alur Pemrograman
+```Python
+modal_awal = 100_000_000
+```
+Variabel `modal_awal` diset ke 100.000.000, yang merupakan modal awal.
+```Python
+laba_bulan = [0, 0, 0.01, 0.01, 0.05, 0.05, 0.05, 0.03]
+```
+List `laba_bulan` menyimpan persentase laba setiap bulan. Setiap angka dalam list ini merepresentasikan persentase laba bulan ke-1 hingga bulan ke-8 dalam bentuk desimal. Misalnya, `0.01` mewakili laba 1% dan `0.05` mewakili laba 5%.
+```Python
+modal = modal_awal
+```
+Variabel `modal` diset dengan nilai `modal_awal` (100.000.000) sebagai nilai awal yang akan bertambah sesuai dengan laba per bulan.
+```Python
+for i, persentase_laba in enumerate(laba_bulan):
+    laba_bulan_ini = modal * persentase_laba
+    modal += laba_bulan_ini
+    print(f"laba bulan ke{i+1}: sebesar {persentase_laba*100}% -> Total modal: Rp{modal:,.0f}")
+```
+Kode ini menggunakan perulangan `for` dengan `enumerate` untuk mengakses setiap elemen dalam `laba_bulan` bersama indeksnya.
 
-
-
+•	`i` adalah indeks bulan (dimulai dari 0, sehingga `i+1` akan memberi angka bulan yang sebenarnya).
+•	`persentase_laba` adalah nilai persentase laba pada bulan tersebut.
+•	`laba_bulan_ini = modal * persentase_laba` menghitung laba untuk bulan saat ini.
+•	`modal += laba_bulan_ini` menambahkan laba bulan ini ke modal.
+•	`print(f"laba bulan ke{i+1}: sebesar {persentase_laba*100}% -> Total modal: Rp{modal:,.0f}")` mencetak persentase laba dan total modal setelah laba ditambahkan.
 
 
 
