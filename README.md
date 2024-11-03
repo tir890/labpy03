@@ -71,10 +71,18 @@ for i, persentase_laba in enumerate(laba_bulan):
 Kode ini menggunakan perulangan `for` dengan `enumerate` untuk mengakses setiap elemen dalam `laba_bulan` bersama indeksnya.
 
 •	`i` adalah indeks bulan (dimulai dari 0, sehingga `i+1` akan memberi angka bulan yang sebenarnya).
+
 •	`persentase_laba` adalah nilai persentase laba pada bulan tersebut.
+
 •	`laba_bulan_ini = modal * persentase_laba` menghitung laba untuk bulan saat ini.
+
 •	`modal += laba_bulan_ini` menambahkan laba bulan ini ke modal.
+
 •	`print(f"laba bulan ke{i+1}: sebesar {persentase_laba*100}% -> Total modal: Rp{modal:,.0f}")` mencetak persentase laba dan total modal setelah laba ditambahkan.
+```Python
+print(f"\nTotal modal pada akhir bulan ke-8: Rp{modal:,.0f}")
+```
+Setelah perulangan selesai, total modal pada akhir bulan ke-8 dicetak.
 
 
 
