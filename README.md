@@ -136,3 +136,6 @@ else:
     print("Pilihan tidak valid, silakan coba lagi.")
 ```
 Jika pengguna memasukkan pilihan yang tidak valid (bukan 1 atau 2), program menampilkan pesan bahwa pilihan tidak valid dan meminta pengguna untuk mencoba lagi.
+
+## Hasil Kode Program
+![foto](https://github.com/tir890/foto/blob/947d782e90732d4a01a09eb92e3a4be081a7f743/Screenshot%202024-11-03%20154011.png)
