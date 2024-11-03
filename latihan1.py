@@ -1,12 +1,14 @@
 from random import random
-n = int(input("Masukkan nilai n: "))
 
-bilangan_acak = []
+n = int(input("Masukkan nilai N: "))
 
-while len(bilangan_acak) < n:
-    bilangan = random()
-    if bilangan < 0.5:
-        bilangan_acak.append(bilangan)
-      
-for angka in bilangan_acak:
-    print(angka)
+i = 1
+
+while i <= n:
+    bilangan_acak = random()
+    
+    if bilangan_acak < 0.5:
+        print(f"data ke: {i} => {bilangan_acak}")
+        i += 1
+
+print("Selesai")
