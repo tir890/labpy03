@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/621e67e8-2ac5-4bd9-8091-c958cbe77d71)# Praktikum-3 
+# Praktikum-3 
 
 Nama : Tiara Hayatul Khoir
 
