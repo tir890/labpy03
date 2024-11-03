@@ -119,7 +119,20 @@ if pilihan == 1:
         print("Saldo Anda tidak mencukupi!")
 ```
 • Pengguna diminta untuk memasukkan jumlah uang yang ingin ditarik.
-• Program memeriksa apakah jumlah penarikan kurang dari atau sama dengan saldo yang tersedia.
-• Jika ya, saldo akan dikurangi dengan jumlah penarikan, dan pesan keberhasilan ditampilkan.
-•	Jika tidak, pesan bahwa saldo tidak mencukupi ditampilkan.
 
+• Program memeriksa apakah jumlah penarikan kurang dari atau sama dengan saldo yang tersedia.
+
+• Jika ya, saldo akan dikurangi dengan jumlah penarikan, dan pesan keberhasilan ditampilkan.
+
+• Jika tidak, pesan bahwa saldo tidak mencukupi ditampilkan.
+```Python
+elif pilihan == 2:
+    print("Terima kasih telah menggunakan layanan ATM!")
+    break
+```
+Jika pengguna memilih opsi 2, program menampilkan pesan terima kasih dan keluar dari loop dengan `break`.
+```Python
+else:
+    print("Pilihan tidak valid, silakan coba lagi.")
+```
+Jika pengguna memasukkan pilihan yang tidak valid (bukan 1 atau 2), program menampilkan pesan bahwa pilihan tidak valid dan meminta pengguna untuk mencoba lagi.
