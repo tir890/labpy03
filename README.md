@@ -8,3 +8,4 @@ NIM : 312410474
 
 Mata Kuliah : Bahasa Pemrograman
 
+## Latihan 1
