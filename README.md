@@ -1,4 +1,4 @@
-# Praktikum-3 
+![image](https://github.com/user-attachments/assets/621e67e8-2ac5-4bd9-8091-c958cbe77d71)# Praktikum-3 
 
 Nama : Tiara Hayatul Khoir
 
@@ -87,5 +87,39 @@ Setelah perulangan selesai, total modal pada akhir bulan ke-8 dicetak.
 ## Hasil Kode Program
 ![foto](https://github.com/tir890/foto/blob/7f5aa233871ecb301642eb367f117a18a08878c2/Screenshot%202024-11-03%20152435.png)
 
-
+## Latihan 3 | Penjelasan Alur Pemrograman
+```Python
+saldo = 1000000
+```
+Kode ini menginisialisasi variabel `saldo` dengan nilai awal sebesar 1.000.000. Ini akan menjadi jumlah uang yang tersedia untuk ditarik.
+```Python
+while True:
+```
+Kode ini memulai sebuah loop yang akan terus berjalan hingga dipecahkan dengan perintah `break`. Ini memungkinkan pengguna untuk melakukan beberapa penarikan tanpa harus memulai program dari awal.
+```Python
+print(f"\nSaldo saat ini: Rp{saldo}")
+```
+Pada setiap iterasi loop, saldo saat ini akan ditampilkan kepada pengguna.
+```Python
+print("1. Tarik Tunai")
+print("2. Keluar")
+```
+Kode ini menampilkan dua pilihan menu kepada pengguna: untuk menarik uang atau keluar dari program.
+```Python
+pilihan = int(input("Pilih menu (1/2): "))
+```
+Pengguna diminta untuk memasukkan pilihan mereka (1 untuk menarik tunai atau 2 untuk keluar). Input ini diubah menjadi tipe integer.
+```Python
+if pilihan == 1:
+    jumlah = int(input("Masukkan jumlah penarikan: Rp"))
+    if jumlah <= saldo:
+        saldo -= jumlah
+        print(f"Penarikan berhasil. Sisa saldo Anda: Rp{saldo}")
+    else:
+        print("Saldo Anda tidak mencukupi!")
+```
+• Pengguna diminta untuk memasukkan jumlah uang yang ingin ditarik.
+• Program memeriksa apakah jumlah penarikan kurang dari atau sama dengan saldo yang tersedia.
+• Jika ya, saldo akan dikurangi dengan jumlah penarikan, dan pesan keberhasilan ditampilkan.
+•	Jika tidak, pesan bahwa saldo tidak mencukupi ditampilkan.
 
