@@ -47,8 +47,9 @@ print("Selesai")
 Setelah loop selesai (yaitu setelah `n` bilangan acak kurang dari 0.5 telah dibangkitkan dan ditampilkan), program mencetak "Selesai" untuk menunjukkan bahwa proses telah berakhir.
 
 # Hasil Kode Program
-![foto]()
+![foto](https://github.com/tir890/foto/blob/7943a555c3945c20549c04d2ce88de152da6426b/Screenshot%202024-11-03%20142206.png)
 
+## Latihan 2 | Penjelasan Alur Pemrograman
 
 
 
