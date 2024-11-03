@@ -84,5 +84,8 @@ print(f"\nTotal modal pada akhir bulan ke-8: Rp{modal:,.0f}")
 ```
 Setelah perulangan selesai, total modal pada akhir bulan ke-8 dicetak.
 
+## Hasil Kode Program
+![foto](https://github.com/tir890/foto/blob/7f5aa233871ecb301642eb367f117a18a08878c2/Screenshot%202024-11-03%20152435.png)
+
 
 
