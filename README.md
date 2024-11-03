@@ -46,6 +46,10 @@ print("Selesai")
 ```
 Setelah loop selesai (yaitu setelah `n` bilangan acak kurang dari 0.5 telah dibangkitkan dan ditampilkan), program mencetak "Selesai" untuk menunjukkan bahwa proses telah berakhir.
 
+# Hasil Kode Program
+![foto]()
+
+
 
 
 
