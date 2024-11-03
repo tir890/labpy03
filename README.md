@@ -28,6 +28,11 @@ while len(bilangan_acak) < n:
         bilangan_acak.append(bilangan)
 ```
 Loop `while` akan terus berjalan selama panjang daftar `bilangan_acak` kurang dari `n`.
+```Python
+for angka in bilangan_acak:
+    print(angka)
+```
+Loop for digunakan untuk mencetak setiap bilangan acak yang ada di dalam daftar `bilangan_acak`.
 
 Di dalam loop, fungsi `random()` digunakan untuk menghasilkan bilangan acak antara 0 dan 1.
 
